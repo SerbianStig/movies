@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 var instance = axios.create({
-    baseURL: `http://imdb2.mars-server.net/api/`,
+    baseURL: `https://imdb2.mars-server.net/api/`,
   })
 
 export default instance;
